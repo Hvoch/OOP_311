@@ -1,4 +1,6 @@
+*/.vs/*
 Only *.cpp and *.h
 !*.cpp
 !*.h
 !*.md
+!*.
