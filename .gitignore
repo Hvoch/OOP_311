@@ -1,6 +1,5 @@
-*/.vs/*
-Only *.cpp and *.h
-!*.cpp
-!*.h
+#But not.cpp
+
 !*.md
-!*.
+!*.h
+!*.cpp
