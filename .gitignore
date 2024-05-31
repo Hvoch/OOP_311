@@ -1,16 +1,13 @@
 #Ignore Everything
 *
-
-#But not
+#Except subfolders
 !*/
-
+#In addition to files of this type
 !.gitignore
 !*.md
 !*.h
 !*.cpp
-
-
-#
+#Attached files
 !**/*.md
 !**/*.h
 !**/*.cpp
