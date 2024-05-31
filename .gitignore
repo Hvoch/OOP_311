@@ -1,5 +1,16 @@
-#But not.cpp
+#Ignore Everything
+*
 
+#But not.cpp
+!*/
+
+!.gitignore
 !*.md
 !*.h
 !*.cpp
+
+
+#
+!**/*.md
+!**/*.h
+!**/*.cpp
