@@ -3,15 +3,18 @@
 
 using namespace std;
 
-void get_array(int size, int arr[]) {
+template < class T >
+void get_array( int size, T arr[]) {
 
 	for (int i = 0; i < size; ++i) {
 
-		arr[i] = rand() % 100;
+
+		arr[i] = rand() % 100 ;
 	}
 }
 
-void show_arr(int size, int arr[]) {
+template < class T >
+void show_arr(int size, T arr[]) {
 
 	for (int i = 0; i < size; ++i) {
 
@@ -20,9 +23,10 @@ void show_arr(int size, int arr[]) {
 	cout << endl << endl;
 }
 
-void sorting(int size, int arr[]) {
+template < class T >
+void sorting(int size,  T arr[]) {
 
-	int buf = 0;
+	T buf = 0;
 
 	for (int i = 0; i < size; ++i) {
 
@@ -38,14 +42,15 @@ void sorting(int size, int arr[]) {
 	}
 }
 
+
 int main() {
 
 	srand(time(NULL));
 
-	const int size = 10;
-	int arr[size]{};
+	const int size = 3;
+	double arr[size]{2.3,9.6,2.2};
 
-	get_array(size, arr);
+	//get_array(size,arr);
 	show_arr(size, arr);
 	sorting(size, arr);
 	show_arr(size, arr);
