@@ -32,7 +32,7 @@ void show_arr(const int size, T arr[]) {
 }
 
 int main() {
-	//Массив типа int
+	//Array type int
 	const int size = 5;
 	int arr[size]{3,14,6,87,10};
 	show_arr(size, arr);
@@ -40,14 +40,14 @@ int main() {
 	show_arr(size, arr);
 	cout << endl;
 
-	//Массив типа double
+	//Array type double
 	double arr1[size]{ 3.2,14.9,6.45,87.1,10.7 };
 	show_arr(size, arr1);
 	sort_array(size, arr1);
 	show_arr(size, arr1);
 	cout << endl;
 
-	//Массив типа char
+	//Array type char
 	char arr2[size]{ 'B','C','D','E','A'};
 	show_arr(size, arr2);
 	sort_array(size, arr2);
